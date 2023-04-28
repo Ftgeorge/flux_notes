@@ -1,16 +1,18 @@
 # flux_notes
 
-A new Flutter project.
+A mobile note application built in flutter and firebase. It allows users to create notes, edit them and save them. 
+The application is a CRUD type synced with Firebase cloud storage.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Resources used in this project. 
+- Firebase Cloud Storage
+- Firebase Firestore
+- Flutter (Dart)
 
-A few resources to get you started if this is your first Flutter project:
+## How to Install
+Step 1: Get the application from "Google drive link goes here"
+Step 2: Install on your device 
+Step 3: Write your notes and enjoy flux_notes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+NOTE: It's only available for android devices
