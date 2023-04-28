@@ -30,7 +30,7 @@ Widget noteCard(Function()? onTap, QueryDocumentSnapshot doc) {
             height: 8.0,
           ),
           Text(
-            doc["creation_content"],
+            doc["note_content"],
             style: AppStyle.mainContent,
             overflow: TextOverflow.ellipsis,
           ),

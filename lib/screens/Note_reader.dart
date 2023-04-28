@@ -40,7 +40,7 @@ class _NoteReaderScreenState extends State<NoteReaderScreen> {
               height: 28.0,
             ),
             Text(
-              widget.doc["creation_content"],
+              widget.doc["note_content"],
               style: AppStyle.mainContent,
               overflow: TextOverflow.ellipsis,
             ),

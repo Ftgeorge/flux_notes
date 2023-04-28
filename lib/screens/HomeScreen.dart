@@ -20,8 +20,14 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: AppStyle.mainColor,
       appBar: AppBar(
         elevation: 0.0,
-        title: Text("Flux Notes"),
-        centerTitle: true,
+        title: Padding(
+          padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+          child: Text(
+            "Flux Notes",
+            style: TextStyle(color: Colors.white, fontSize: 28),
+          ),
+        ),
+        centerTitle: false,
         backgroundColor: AppStyle.mainColor,
       ),
       body: Padding(
@@ -30,13 +36,6 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              "Your recent Notes",
-              style: GoogleFonts.roboto(
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 22),
-            ),
             SizedBox(
               height: 20.0,
             ),
